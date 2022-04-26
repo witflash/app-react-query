@@ -4,18 +4,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <h1 className="App-title">
+          Playground
+        </h1>
+        <p className="App-subtitle">
+          for React Query library
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <main>
+        Here is some text
+      </main>
     </div>
   );
 }
