@@ -11,7 +11,7 @@ function App() {
           for React Query library
         </p>
       </header>
-      <main>
+      <main className="App-main">
         Here is some text
       </main>
     </div>
