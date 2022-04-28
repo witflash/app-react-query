@@ -1,8 +1,8 @@
-.App {
+.Main {
   text-align: center;
 }
 
-.App-header {
+.Main-header {
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: flex;
@@ -14,19 +14,16 @@
   background-color: #282c34;
 }
 
-.App-title {
+.Main-title {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-.App-subtitle {
+.Main-subtitle {
   margin: 0;
 }
 
-.App-link {
+.Main-link {
   color: #61dafb;
-}
-
-.App-main {
-  padding: 2rem;
+  text-decoration: none;
 }

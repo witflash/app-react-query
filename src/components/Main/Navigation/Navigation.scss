@@ -1,0 +1,24 @@
+.Navigation {
+  background-color: cadetblue;
+}
+
+.Navigation-list {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  list-style: none;
+}
+
+.Navigation-item {
+  margin-right: 1rem;
+}
+
+.Navigation-link {
+  color: white;
+  text-decoration: none;
+  transition-duration: 300ms;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
