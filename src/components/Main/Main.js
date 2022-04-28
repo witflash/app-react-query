@@ -1,5 +1,6 @@
 import { Routes, Route, Link } from 'react-router-dom';
 
+import { PagesListing } from 'components/PagesListing';
 import { ROUTE } from 'routes';
 
 import { Navigation } from './Navigation';
@@ -26,11 +27,11 @@ function Main() {
         <Routes>
           <Route
             path="/"
-            element={<p>Welcome to Sandbox!</p>}
+            element={<h2>Welcome to Sandbox!</h2>}
           />
           <Route
             path={ROUTE.PAGES}
-            element={<p>Pages</p>}
+            element={<PagesListing />}
           />
           <Route
             path={ROUTE.CONTENT_BLOCKS}
