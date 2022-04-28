@@ -19,8 +19,8 @@ const pages = [
     name: 'Page Tree',
     description: 'Some description for Page Three',
     contentBlocks: [2, 0],
-  }
-]
+  },
+];
 
 const contentBlocks = [
   {
@@ -40,10 +40,10 @@ const contentBlocks = [
     type: 'contentBlock',
     title: 'Some content title 3',
     body: '<div><p>Some text 3</p><p>Another text 3</p></div>',
-  }
-]
+  },
+];
 
 module.exports = {
   pages,
   contentBlocks,
-}
+};

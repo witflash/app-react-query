@@ -1,4 +1,5 @@
 import { QueryClientProvider } from 'react-query';
+import { ReactQueryDevtools } from 'react-query/devtools';
 import { BrowserRouter } from 'react-router-dom';
 
 import { Main } from 'components/Main';
@@ -9,6 +10,7 @@ function App() {
     <BrowserRouter>
       <QueryClientProvider client={queryClient}>
         <Main />
+        <ReactQueryDevtools initialIsOpen={false} />
       </QueryClientProvider>
     </BrowserRouter>
   );
