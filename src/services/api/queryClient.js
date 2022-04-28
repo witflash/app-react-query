@@ -1,5 +1,6 @@
-import axios from 'axios';
 import { QueryClient } from 'react-query';
+
+import axios from 'services/api/axios';
 
 import { API_URL } from './config';
 

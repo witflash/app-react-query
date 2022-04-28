@@ -35,10 +35,10 @@ endpoints.forEach((endpoint) => {
     res.send(entity);
   });
 
-  app.post(singleUrl, (req, res) => {
+  app.post(pluralUrl, (req, res) => {
     const { error } = validator[type].validate(req.body);
 
-    if (!error) {
+    if (error) {
       res.status(400).send(error.details[0].message);
       return;
     }
